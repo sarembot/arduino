@@ -1,5 +1,6 @@
 // SIMPLE LIGHT SENSOR - By Mitchell Saremba
 // Uses a photoresistor and voltage divider to detect light, and displays a colour on an RGB LED based on current state of my room light.
+// The lamp next to my desk has three states - off, half on, full on. So the loop conditions are set to coordinate with the ranges of values observed during each separate state 
 
 const int RED = 11;
 const int GREEN = 10;
